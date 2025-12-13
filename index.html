@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles1.css">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* Makes styling much easier! */
+        }
+
+
+
         header {
 
             text-decoration: none;
 
         }
-
 
 
 
@@ -21,11 +29,7 @@
             line-height: 1.2;
             text-decoration: none;
 
-            li {
 
-                list-style: none;
-
-            }
 
 
 
@@ -40,12 +44,37 @@
             }
 
 
+
+            ol {
+                display: flex;
+                width: 90%;
+                background-color: aquamarine;
+                max-width: 1200px;
+
+            }
+
+            li {
+                list-style: none;
+                flex-grow: 1;
+
+                justify-content: space-between;
+
+
+            }
+
+
+
+
+
             h1 {
 
                 font-size: 60px;
                 align-items: center;
                 font-weight: 800;
-
+                text-transform: capitalize;
+                color: #000000;
+                font-family: roboto, sans sans-serif;
+                line-height: 1.6;
             }
 
 
@@ -62,6 +91,14 @@
 
 
                 text-align: center;
+            }
+
+
+
+            a {
+                text-decoration: none;
+                color: #ffffff;
+
             }
     </style>
 
@@ -80,7 +117,7 @@
 
     <header>
 
-        <img src="Logo recargasvenezuela.jpg" alt="logo recargas venezuela" width='200 px'>
+        <img src="Logo recargasvenezuela.jpg" alt="logo recargas venezuela" width='150 px'>
 
     </header>
 
@@ -92,7 +129,7 @@
         <ol>
 
             <li> <a href="index.html"> Inicio </a>
-            <li> <a href="acerca.html"> Acerca </a>
+            <li> <a href="acerca.html"> Nosotros </a>
             <li> <a href="contacto.html"> Contacto </a>
 
         </ol>
@@ -111,7 +148,7 @@
             hemos tenido 100% de éxito <br> en nuestras operaciones en Venezuela.
         <p>
 
-        <p> Como si fuera poco nuestras tarifas son las competitivas del mercado</p>
+        <p> Como si fuera poco nuestras tarifas son las más competitivas del mercado</p>
 
         <p> Como aval somos confiables y responsables con todos los clientes <br>
             que han disfrutado nuestros servicios</p>
@@ -138,7 +175,7 @@
 
     <!-----------------------ASIDE-------------------------------->
 
-    <img src="william-hook-9e9PD9blAto-unsplash.jpg" alt="fotografía celular" width='200 px'>
+    <img src="william-hook-9e9PD9blAto-unsplash.jpg" alt="fotografía celular" width='200 px' height="200 px">
 
 
     <!------------------------FOOTER------------------------------->
@@ -152,9 +189,9 @@
         <li> <a href="contacto.html"> Contacto </a>
 
 
-            <h3> Los Teques, estado Miranda, Venezuela </h3>
+            <h3> Los Teques, Estado Miranda, Venezuela </h3>
 
-            <h4> 2025 PMH Derechos reservados </h4>
+            <h4> &copy; 2025 PMH Derechos reservados </h4>
             <address> <a Email href="mailto:info@example.com"> pmhrv75@gmail.com </a> </address>
 
 
