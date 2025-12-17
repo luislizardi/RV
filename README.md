@@ -1,1 +1,1 @@
-Recargasvenezuela.com tiene servicios de recargas a todas las operadoras
+Recargasvenezuela.com tiene servicios  de recargas seguros y confiables a Movistar, Digitel, Movilnet, Inter y SimpleTV
